@@ -794,7 +794,7 @@ def fish_animate(val):
 
         if fish_x > width - 350 or fish_x < width - 850:
             print("Game over")
-            print("Final Fishing Scoreww: ", fishgamepoint)
+            print("Final Fishing Score: ", fishgamepoint)
             fishON = False
             fishgamepoint = 0
             fish_x = random.uniform((xaxis/2)+100, (-xaxis/2)-100)
